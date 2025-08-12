@@ -1,0 +1,6 @@
+{
+	"entity.totoro_top.top.spin":{
+		"subtitle":"subtitles.totoro_top.top.spin",
+		"sounds":["totoro_top:spin"]
+	}
+}

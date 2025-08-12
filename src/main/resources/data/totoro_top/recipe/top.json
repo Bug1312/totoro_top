@@ -1,0 +1,13 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"XXX",
+		"XOX",
+		" X "
+	],
+	"key":{
+		"X":["minecraft:iron_ingot"],
+		"O":["minecraft:wind_charge"]
+	},
+	"result":{"id": "totoro_top:top"}
+}

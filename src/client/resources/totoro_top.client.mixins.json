@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.bug1312.totoro_top.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"BipedEntityModelMixin",
+		"BipedEntityRendererMixin",
+		"BipedEntityRenderStateMixin",
+		"ClientPlayerEntityMixin",
+		"ClientPlayNetworkHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

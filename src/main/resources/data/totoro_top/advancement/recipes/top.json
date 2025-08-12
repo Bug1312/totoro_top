@@ -1,0 +1,15 @@
+{
+	"parent":"minecraft:recipes/root",
+	"criteria":{
+		"has_wind_charge":{
+			"conditions":{"items":[{"items": "minecraft:wind_charge"}]},
+			"trigger":"minecraft:inventory_changed"
+		},
+		"has_the_recipe":{
+			"conditions":{"recipe":"totoro_top:top"},
+			"trigger":"minecraft:recipe_unlocked"
+		}
+	},
+	"requirements":[["has_the_recipe","has_wind_charge"]],
+	"rewards":{"recipes":["totoro_top:top"]}
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "totoro_top",
+	"version": "${version}",
+	"name": "Totoro's Top",
+	"description": "This mod brings Totoro's Magical Top into Minecraft. Made for Modfest: ToyBox",
+	"authors": [
+		"Bug1312",
+		"@thermodyn.bsky.social"
+	],
+	"contact": {
+		"sources": "https://github.com/Bug1312/totoro_top"
+	},
+	"license": "EUPL-1.2",
+	"icon": "assets/totoro_top/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.bug1312.totoro_top.TotoroTop"
+		],
+		"client": [
+			"com.bug1312.totoro_top.TotoroTopClient"
+		]
+	},
+	"mixins": [
+		"totoro_top.mixins.json",
+		{
+			"config": "totoro_top.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"area_lib": "*"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.bug1312.totoro_top.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"EntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
